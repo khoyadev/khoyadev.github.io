@@ -1,0 +1,548 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+{font-family: 'Nunito Sans', sans-serif; */
+    main{
+        height: 100vh;
+        
+    }
+    .accueil{
+        background-image:url(../image/lagos-techie.jpg) ;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: left;
+
+    } 
+    .actu{
+        background-image:url(../image/actu.png) ;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: left;
+        height: max-content;
+        width: 100%;
+    } 
+    .date{
+        width: 32px;
+        height: 42px;
+       margin-bottom: 50%;
+       margin-top: -18px;
+       
+    }
+    .font{
+    width: 767px;
+    height: 171px;
+    left: 0px;
+    top: 20px;
+    
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 57px;
+        
+    }
+    .font1{
+    width: 649px;
+    height: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 22px;
+    line-height: 30px;
+    }
+    .boutonslide-accueil{
+        margin-bottom: -20%;
+        margin-top: 20%;
+        
+    }
+    .slide-bounton{
+        width: 12px;
+        height: 12px;
+        border: transparent;
+        background: #ffffff;
+        border-radius: 6px ;
+        }
+        .slide1-bounton{
+            width: 46px;
+        height: 12px;
+        border: transparent; 
+        background: #ffffff;
+        border-radius: 6px ;
+        }
+    .menu{
+        height: 10%;
+        
+    }
+    .ligne{
+        width: 5px;
+        height: 80px;
+        margin-right: -50px !important;
+        margin-top: -40px;
+    }
+    .img1{
+        width: 150px;
+       
+    }
+    #montabs .active{
+        border-bottom: 6px solid #CE0033;
+        color: #CE0033;
+    }
+    a:hover{
+        color: #CE0033 !important;
+    }
+    a{
+        font-size: 22px !important;
+    }
+    .img2{
+        width: 400px !important;
+    }
+    .dropdown-toggle::after{ 
+        color: #CE0033 !important;
+    }
+    .bouton{
+        background-color:#CE0033 ;
+        color: white;
+        
+        width: 90px;
+        height: 40px;
+        
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px !important;
+    line-height: 22px;
+    margin-top: 3.5rem;
+    }
+    .bouton1{
+    background-color:#CE0033 ;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    }
+    .bouton:hover{
+        color: #CE0033 ;
+        background-color:white ;
+        border:  1px solid  #CE0033;;
+    }
+    .bouton1:hover{
+        color: #CE0033 ;
+        background-color:white ;
+        border:  1px solid  #CE0033;;
+    }
+    .introduction{
+        background: linear-gradient(253.7deg, rgba(206, 0, 51, 0.1386) -20.13%, rgba(255, 249, 249, 0) 100%);  
+        padding: 89px 80px;
+        
+    }
+    .img3{
+        border-radius: 30px;
+        width: 496px;
+        height: 557px;
+        margin-left: 50px;
+    }
+    h3{
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;
+    color: #CE0033;
+    
+    }
+    .p-introduction{
+    width: 590px;
+    height: 482px;
+    left: 0px;
+    top: 83px;
+    
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    
+    }
+    .div-ul{
+        margin-left: 15%;
+    }
+    .div-contact{
+        margin-left: 10%; 
+    }
+    .nouvelle{
+     color: #CE0033;
+     width: 333px;
+    height: 65px;
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    margin-left: 500px;
+    
+    }
+    .p-plus-actualite{
+        color: #CE0033;
+    }
+    .div-event-venir{
+        border-radius: 10px;
+        width: 628px;
+        height: 191px;
+        left: 0px;
+        top: 634px;
+    }
+    .h1-decouverte{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 57px;
+    }
+    .chiffre{
+        margin-top: -10%;
+    
+    width: 1464.62px;
+    height: 545.78px;
+    
+    }
+    .accueil1{
+        background-image:url(../image/image2.png) ;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: left;
+        width: 100%;
+        height: 50%;
+    } 
+    .accueil2{
+        background-image:url(../image/redimage.png) ;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: left;
+        width: 100%;
+        height: 50%;
+    } 
+    hr::before {
+        color: black !important;
+        background-color: black !important;
+        border: 5px solid black !important;
+      }
+    .hr{
+        width: 110px;
+        height: 5px;
+      
+    }
+    .trait-event-venir{
+      
+        width: 44px;
+        height: 0px;
+        border: 2px solid #FFFFFF;
+    }
+    .spantrait{
+        position: absolute;
+        width: 44px;
+        height: 0px;
+        left: 917px;
+        top: 683px;
+        border: 2px solid #FFFFFF;
+    }
+    .Formateur{
+        width: 498px;
+    height: 397px;
+    left: 29px;
+    top: 38px;
+    
+    background: #FFFFFF;
+    border: 0.5px solid rgba(217, 217, 217, 0.66);
+    box-sizing: border-box;
+    box-shadow: 0px 3px 67px 2px rgba(195, 195, 195, 0.25);
+    border-radius: 10px;
+    }
+    .samba-photo{
+    
+    margin-top: -50px;
+    margin-left: -50px;
+    box-shadow: 10px 8px 34px 6px rgba(185, 181, 181, 0.25);
+    border-radius: 10px;
+    }
+    .samba-nom{
+    width: 231px;
+    height: 36px;
+    
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 35px;
+    }
+    .samba-text{
+        margin-top: 50px;
+        
+    }
+    .bouton2{
+    color: white !important;
+    padding: auto; 
+    width: 100px;
+    height: 30px;
+    margin-left: 90%!important;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    font-weight: 800;
+    font-size: 16px !important;
+    line-height: 10px;
+    
+    background: #CE0033;
+    
+    border-radius: 5px;
+    
+     }
+    .slide{
+    width: 12px;
+    height: 12px;
+    border: transparent;
+    background: #CE0033;
+    border-radius: 6px ;
+    }
+    .slide1{
+        width: 46px;
+    height: 12px;
+    border: transparent;
+    background: #CE0033;
+    border-radius: 6px ;
+    }
+    .slide-accueil{
+        margin-top: 400px !important;
+    }
+    .div1-app{
+        width: 681px;
+    height: 426px;
+    left: -8px;
+    top: 4448px;
+    
+    background: #F9F8F8;
+    }
+    .p_div1_app{
+        width: 538px;
+    height: 161px;
+    left: 72px;
+    top: 4580px;
+    
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: justify;
+    margin-right: 90px !important;
+    margin-top: 100px !important;
+    margin-left: 40px !important;
+    color: #000000;
+    
+    }
+    .orbit{
+        border-radius: 10px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .orbit1{
+        width: 551px;
+        height: 64px;
+        font-family:'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 34px;
+        color: #000000;
+    }
+    .cercle{
+    width: 189px;
+    height: 182px;
+    left: 63px;
+    top: 5429px;
+    margin-top: -150px;
+    margin-left: -30px;
+    background: #E7DFE1;
+    border-radius: 117px;
+    }
+    .hr-red{
+        width: 635px;
+        height: 5px;
+      
+    }
+    
+    .orbit2{
+    
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .cercle1{
+        width: 109px;
+        height: 109px;
+        margin-top: -30px;
+        margin-right: -90px;
+        background: rgba(206, 0, 51, 0.09);
+        border-radius: 117px;
+    }
+    .cercle2{
+        width: 109px;
+        height: 109px;
+        margin-top: 220px;
+        margin-bottom: -30px;
+        margin-left: -90px;
+        background: rgba(206, 0, 51, 0.09);
+        border-radius: 117px;
+    }
+    .guillemer{
+        width: 43px;
+        height: 43px;
+    }
+    .img-cercle{
+       width:60px; 
+       height: 60px;
+    }
+    .slide-general{
+        margin-left: 900px;
+    }
+    .formulaire{
+        width: 370px;
+        height: 75px;
+        left: 0px;
+        top: 0px;
+    
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        box-shadow: 4px 4px 26px 1px rgba(94, 109, 108, 0.34);
+        border-radius: 10px;
+    }
+    .message{
+        width: 769px;
+        height: 276px;
+        left: 0px;
+        top: 0px;
+    
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        box-shadow: 4px 4px 26px 1px rgba(94, 109, 108, 0.34);
+        border-radius: 10px;
+    }
+    .prenom{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #A7ACB6;
+    }
+    .adress{
+        width: 122px;
+    height: 38px;
+    left: 57px;
+    top: 0px;
+    
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    }
+    .accueil3{
+        background-image:url(../image/veille.png) ;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: left;
+        max-height: 100%;
+    } 
+    .bouton-envoyer{
+        background-color:#CE0033 ;
+        color: white;
+        width: 90px;
+        height: 40px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px !important;
+        line-height: 22px;
+    }
+    .voir-plus{
+    margin-left: 360px;
+    margin-top: -5%;
+    }
+    .propos{
+        width: 263px;
+        height: 210px;
+        left: 0px;
+        top: 45px;
+    
+        font-family:'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 42px;
+    
+        color: rgba(255, 255, 255, 0.84);
+    }
+    .sim{
+    width: 202px;
+    height: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    
+    color: #FFFFFF;
+    
+    }
+    
+    .rsg{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .alumin{
+        background-image:url(../image/alumin.png) ;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: left;
+    } 
+    .img-alumin{
+        margin-left: -50px;
+    }
+    .divSamba{
+        width: 408px;
+        height: 436px;
+        left: 24px;
+        top: 23px;
+    }
+    .hc{
+        background-image:url(../image/inscription.jpg) ;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: left;
+    } 
+    .apprenant{
+        background-image:url(../image/rk.png) ;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: left;
+    }
+    .fontchiffre{
+        text-align: center !important;
+        width: 298px;
+    height: 39px;
+    left: -63px;
+    top: 81px;
+    
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
+    .voirplusfooter{
+        width: 124px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+    }
